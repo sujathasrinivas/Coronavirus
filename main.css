@@ -1,0 +1,91 @@
+.my_nav{
+    font-size: large;
+    
+}
+.my_nav_1{
+    margin-top: 5px;
+}
+.my-card{
+    background-color:rgb(211, 208, 208);
+    border-radius:10% ;
+    text-align:center;
+}
+.image_1{
+    width:50px;
+    height:30px;
+    border-radius: 30%;   
+}
+.my-heading{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.item {
+ z-index: -2;
+}
+@keyframes slidein {
+
+        0% {
+        font-size: 40px;color:blanchedalmond;
+        }
+        
+        100% {
+        font-size: 60px;color:Red;
+        }
+}
+.animation{ 
+  animation: slidein 5s linear infinite;
+  font-weight: 700;
+  }
+p{
+      font-size:20px;
+  }
+.current{
+    animation: current 7s ease  infinite normal;
+    font-weight: 700;
+    color: crimson;
+    font-size:30px;
+  }
+@keyframes current {
+    from {transform:translateX(-100px);}
+    to {transform:translateX(1600px);}
+
+    }
+h1{
+    font-family:sans-serif;
+}
+a{
+    color: black;
+}
+.text{
+    text-align:justify;
+}
+p{
+    background-image: linear-gradient(rgb(53, 53, 66) rgb(198, 193, 224) );
+}
+/* Reearch css */
+
+.my_heading{
+    opacity:0.5
+}
+.image_2{
+    border:1px solid blue ;
+}
+.card-header{
+    opacity: 0.5;
+}
+/* On screens that are 600px wide or less, 
+make the menu links stack on top of each other instead of next to each other */
+@media (max-width: 575.98px)
+{
+    .current{
+        font-size: 8px;
+        font-weight: 200px;
+    }
+        .my_heading {
+          font-size: 10px;
+        }
+        .section-1{
+          font-size: 10px;
+          margin-bottom: 20px;
+        }
+}
